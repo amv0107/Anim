@@ -30,5 +30,27 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale" />
+
+        <TextView
+            android:id="@+id/tv_scale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="Анимация изменения размера" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

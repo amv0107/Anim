@@ -13,7 +13,17 @@
         <action
             android:id="@+id/alpha"
             app:destination="@id/detailFragment"
-            app:popEnterAnim="@anim/to_alpha" />
+            app:enterAnim="@anim/to_alpha"
+            app:exitAnim="@anim/from_alpha"
+            app:popEnterAnim="@anim/to_alpha"
+            app:popExitAnim="@anim/from_alpha" />
+        <action
+            android:id="@+id/scale"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/from_scale"
+            app:exitAnim="@anim/to_scale"
+            app:popEnterAnim="@anim/from_scale"
+            app:popExitAnim="@anim/to_scale" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"

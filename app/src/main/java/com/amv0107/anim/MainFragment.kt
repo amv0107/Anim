@@ -28,6 +28,9 @@ class MainFragment : Fragment() {
             btnAlpha.setOnClickListener {
                 Navigation.findNavController(it).navigate(R.id.alpha)
             }
+            btnScale.setOnClickListener {
+                Navigation.findNavController(it).navigate(R.id.scale)
+            }
         }
     }
 
